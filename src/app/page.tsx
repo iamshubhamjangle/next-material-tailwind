@@ -1,3 +1,11 @@
+import { Button } from "@/components/exports";
+import MyNavbar from "@/components/navbar";
+
 export default function Home() {
-  return <main>Hello World!</main>;
+  return (
+    <main>
+      <MyNavbar />
+      <Button>Test</Button>
+    </main>
+  );
 }
